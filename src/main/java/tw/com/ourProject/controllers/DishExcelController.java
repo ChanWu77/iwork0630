@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 2022-06-15  把菜單excel數據存到mysql #這一個版本的token還是不能用，先註解掉
+ * 2022-06-15  把菜單excel數據存到mysql 
  */
 @Controller
 public class DishExcelController {
@@ -25,7 +25,6 @@ public class DishExcelController {
 	public String index() {
 		return "DishIndex";
 	}
-//	@GetMapping("/token")
 	
 	
 
